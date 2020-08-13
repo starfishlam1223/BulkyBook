@@ -11,7 +11,7 @@ namespace BulkyBook.Models.ViewModels
         public int Id { get; set; }
 
         [Required]
-        [Display(Name="category Name")]
+        [Display(Name="Category Name")]
         [MaxLength(50)]
         public string Name { get; set; }
     }
