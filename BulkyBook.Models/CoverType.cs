@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace BulkyBook.Models.ViewModels
+namespace BulkyBook.Models
 {
-    public class Category
+    public class CoverType
     {
         [Key]
         public int Id { get; set; }
 
         [Required]
-        [Display(Name="Category Name")]
+        [Display(Name = "Cover Type Name")]
         [MaxLength(50)]
         public string Name { get; set; }
     }

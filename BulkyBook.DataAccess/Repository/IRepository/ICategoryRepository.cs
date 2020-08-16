@@ -1,4 +1,4 @@
-﻿using BulkyBook.Models.ViewModels;
+﻿using BulkyBook.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;

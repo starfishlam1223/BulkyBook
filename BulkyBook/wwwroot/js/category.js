@@ -7,7 +7,7 @@ $(document).ready(() => {
 function loadDataTable() {
     dataTable = $("#tblData").DataTable({
         "ajax": {
-            "url": "/Admin/category/GetAll"
+            "url": "/Admin/Category/GetAll"
         },
         "columns": [
             { "data": "name", "width": "60%" },
@@ -33,7 +33,7 @@ function loadDataTable() {
 
 function Delete(url) {
     swal({
-        title: "Are you sure you wnt to delete?",
+        title: "Are you sure you want to delete?",
         text: "Once deleted, the data cannot be restored!",
         icon: "warning",
         buttons: true,
